@@ -1,0 +1,99 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #2a4d69;
+    color: #e7eff6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.instruction-text {
+    width: min(100vw, 450px);
+    font-size: 1.15rem;
+    min-height: 10px;
+    background-color: #63ace5;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.palindrome-div {
+    width: min(100vw, 450px);
+    min-height: 100px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #4b86b4;
+    box-shadow: 3px 3px 3px #000000;
+}
+
+#text-input {
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 2px solid #adcbe3;
+}
+
+#check-btn {
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    font-size: 1.0rem;
+    margin: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 2px solid #adcbe3;
+}
+
+#result {
+    font-size: 1.2rem;
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#palindrome-definition-div {
+    width: min(100vw, 450px);
+    font-size: 1.3rem;
+    min-height: 100px;
+    background-color: #63ace5;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bulb-column {
+    margin-right: 5px;
+    align-items: start;
+}
